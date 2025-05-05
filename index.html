@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=counter_2" />
+    <link rel="icon" type="image/png" href= "ideas.png">
+</head>
+<body>
+    <div class="quiz-card"> 
+        <p id="questions"> </p>
+        <!-- Better for a countdown -->
+       <span id="countdown" class="countdown-timer">10</span>
+
+        <div id="optn" class="mcq">
+            <button id="0" class="options"></button>
+            <button id="1" class="options"></button>
+            <button id="2" class="options"></button>
+            <button id="3" class="options"></button>
+        </div>
+        <button id="nxtQ" onclick="nextQuestion() " class="nxt">Next</button>
+    </div>
+    <script src="data.js"></script>
+   
+</body> 
+</html>

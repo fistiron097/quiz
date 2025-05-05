@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(61, 61, 163);
+}
+.quiz-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 30px;
+    width: fit-content; /* only as wide as content */
+    max-width: 50%;     /* optional: for responsiveness */
+    margin-top: 150px;
+    margin-left: 660px;
+    background-color: white;
+}
+.mcq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.options{
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+.options:hover{
+background-color: wheat;
+cursor: pointer;
+
+}
+.nxt{
+    height: 50px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+}
+.countdown-timer {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  
+  
